@@ -1,0 +1,77 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "import"],
+  "extends": [
+    "airbnb-base",
+    "react-app",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-console": "off",
+    "import/no-named-as-default": 0,
+    "no-case-declarations": "off",
+    "no-prototype-builtins": "off",
+    "no-nested-ternary": "off",
+    "guard-for-in": "off",
+    "no-plusplus": "off",
+    "prefer-destructuring": ["error", { "array": false }],
+    "radix": ["error", "as-needed"],
+    "camelcase": 0,
+    "linebreak-style": 0,
+    "class-methods-use-this": [
+      "error",
+      {
+        "exceptMethods": [
+          "render",
+          "getInitialState",
+          "getDefaultProps",
+          "getChildContext",
+          "componentWillMount",
+          "componentDidMount",
+          "componentWillReceiveProps",
+          "shouldComponentUpdate",
+          "componentWillUpdate",
+          "componentDidUpdate",
+          "componentWillUnmount"
+        ]
+      }
+    ],
+    "max-len": ["error", { "code": 180 }],
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-closing-bracket-location": [2, "line-aligned"],
+    "react/jsx-pascal-case": [2, { "allowLeadingUnderscore": false }],
+    "react/jsx-filename-extension": [1, { "allow": "as-needed" }],
+    "react/jsx-boolean-value": "error",
+    "react/jsx-curly-spacing": ["error", "never"],
+    "react/jsx-equals-spacing": ["error", "never"],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/self-closing-comp": "error",
+    "react/jsx-max-props-per-line": ["error", { "when": "multiline" }],
+    "react/jsx-first-prop-new-line": ["error"],
+    "array-callback-return": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "import/no-unresolved": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"],
+        "moduleDirectory": ["node_modules", "src"]
+      }
+    }
+  }
+}
