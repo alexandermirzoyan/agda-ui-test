@@ -46,7 +46,6 @@
     "jsx-quotes": ["error", "prefer-single"],
     "react/jsx-closing-bracket-location": [2, "line-aligned"],
     "react/jsx-pascal-case": [2, { "allowLeadingUnderscore": false }],
-    "react/jsx-filename-extension": [1, { "allow": "as-needed" }],
     "react/jsx-boolean-value": "error",
     "react/jsx-curly-spacing": ["error", "never"],
     "react/jsx-equals-spacing": ["error", "never"],
