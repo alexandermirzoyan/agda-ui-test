@@ -27,6 +27,7 @@ body {
 
 @layer components {
   body {
+    color: theme('colors.white');
     background-color: theme('colors.main-background');
   }
 }
