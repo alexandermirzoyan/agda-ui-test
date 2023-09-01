@@ -4,6 +4,13 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    screens: {
+      sm: '844px',
+      md: '1024px',
+      lg: '1440px',
+      xl: '1720px',
+      '2xl': '1920px',
+    },
     fontFamily: {
       'amiri-regular': 'Amiri-Regular',
       'amiri-italic': 'Amiri-Italic',
@@ -12,12 +19,10 @@ module.exports = {
       backgroundImage: {
         'sword-pattern': 'url(/src/assets/icons/pattern-2.svg)',
       },
-      screens: {
-        md: '844px',
-      },
     },
     colors: {
       white: '#FFFFFF',
+      black: '#161616',
       'main-gold': '#9E7A43',
       'main-background': '#202020',
     },
