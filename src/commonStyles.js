@@ -5,3 +5,4 @@ export const TEXT_MD = 'xl:text-[32px] lg:text-[24px] md:text-[24px] sm:text-[24
 export const TEXT_SM = 'xl:text-[24px] lg:text-[20px] md:text-[16px] sm:text-[16px] text-[14px]';
 export const TEXT_XS = 'xl:text-[16px] lg:text-[14px] md:text-[14px] sm:text-[14px] text-[14px]';
 export const SECTION = 'xl:py-[60px] lg:py[40px] md:py-[40px] sm:py-[40px] py-[20px]';
+export const HORIZONTAL_SECTION_SPACING = 'xl:px-[368px] lg:px-[280px] md:px-[240px] sm:px-[120px] px-[16px]';
