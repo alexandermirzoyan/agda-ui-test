@@ -5,7 +5,9 @@ const HEADER_PADDINGS = 'py-4 lg:ps-[54px] lg:pe-[64px] md:ps-[64px] md:pe-[64px
 
 export const Header = () => (
   <header className={`flex items-center justify-between ${HEADER_PADDINGS}`}>
-    <img src={logo} alt='logo' className='lg:w-[242px] w-[165px]' />
+    <a href='/'>
+      <img src={logo} alt='logo' className='lg:w-[242px] w-[165px]' />
+    </a>
     <nav className={`${TEXT_XS} uppercase sm:block hidden`}>
       <a className='md:mr-[60px] mr-[48px] text-main-gold' href='#'>Eng</a>
       <a className='md:mr-[60px] mr-[48px]' href='#'>The archives</a>
