@@ -5,11 +5,11 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '844px',
-      md: '1024px',
-      lg: '1440px',
-      xl: '1728px',
-      '2xl': '1920px',
+      sm: '845px',
+      md: '1025px',
+      lg: '1441px',
+      xl: '1729px',
+      '2xl': '1921px',
     },
     fontFamily: {
       'amiri-regular': 'Amiri-Regular',
