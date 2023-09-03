@@ -17,7 +17,7 @@ import SwordPattern from './assets/icons/pattern-2.svg';
 import { Carousel } from './components/Carousel';
 import { TableOfContent } from './components/TableOfContent';
 
-const IMAGE_CARD_COMMON_STYLES = 'lg:w-[375px] md:w-[310px] w-[174px] lg:h-[481px] md:h-[398px] h-[222px]';
+const IMAGE_CARD_COMMON_STYLES = 'lg:max-w-[375px] md:max-w-[310px] max-w-[174px] lg:h-[481px] md:h-[398px] h-[222px]';
 
 function App() {
   return (
