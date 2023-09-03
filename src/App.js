@@ -82,8 +82,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className={`${SECTION}`}>
-        <div className={`${SECTION} bg-black`}>
+      <div className={`${SECTION} overflow-hidden`}>
+        <div className={`${SECTION} bg-black overflow-hidden`}>
           <Carousel />
         </div>
       </div>
