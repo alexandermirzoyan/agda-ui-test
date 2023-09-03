@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className={`${SECTION} xl:px-[368px] lg:px-[280px] md:px-[228px] sm:px-[120px] px-[16px]`}>
+      <section className={`${SECTION} xl:px-[368px] lg:px-[280px] md:px-[228px] sm:px-[120px] px-[16px]`}>
         <div className='flex justify-center md:mb-[81px] sm:mb[67px] mb-[38px]'>
           <img src={Image2} alt='image-1' className={`${IMAGE_CARD_COMMON_STYLES} z-[1] relative left-[150px] rotate-[-15deg] origin-bottom-right grayscale`} />
           <img src={Image1} alt='image-2' className={`${IMAGE_CARD_COMMON_STYLES} z-[2]`} />
@@ -43,8 +43,8 @@ function App() {
             <span>UAE National Library and Archives</span>
           </p>
         </article>
-      </div>
-      <div className={`${SECTION} ${SECTION_HORIZONTAL_SPACING} relative overflow-hidden`}>
+      </section>
+      <section className={`${SECTION} ${SECTION_HORIZONTAL_SPACING} relative overflow-hidden`}>
         <div className='md:block hidden absolute w-full top-[0] xl:left-[36px] left-[25px]'>
           <TableOfContent />
         </div>
@@ -65,16 +65,16 @@ function App() {
             until the end of the 1970s and does so with documents, photographs, videos and newspaper articles.
           </p>
         </div>
-      </div>
-      <div className={`${SECTION} ${SECTION_HORIZONTAL_SPACING}`}>
+      </section>
+      <section className={`${SECTION} ${SECTION_HORIZONTAL_SPACING}`}>
         <img className='w-full' src={Image4} alt='cover-image' />
         <p className={`${TEXT_XS} xl:mt-[28px] mt-[16px]`}>
           Report on proposed imporevement of Duba Harbour
           by Sir William Hacrow and partners,January 1955.
           Images reproduced by permission of The National Archives, London, England
         </p>
-      </div>
-      <div className={`${SECTION} lg:px-[455px] md:px-[280px] sm:px-[209px] px-[16px]`}>
+      </section>
+      <section className={`${SECTION} lg:px-[455px] md:px-[280px] sm:px-[209px] px-[16px]`}>
         <div className='relative flex justify-center'>
           <img className='lg:h-[800px] sm:h-[600px] h-[380px]' src={SwordPattern} alt='sword-pattern' />
           <div className='text-center absolute sm:bottom-0 bottom-[24px] left-0 right-0'>
@@ -87,12 +87,12 @@ function App() {
             </p>
           </div>
         </div>
-      </div>
-      <div className={`${SECTION} overflow-hidden`}>
+      </section>
+      <section className={`${SECTION} overflow-hidden`}>
         <div className={`${SECTION} bg-black overflow-hidden`}>
           <Carousel />
         </div>
-      </div>
+      </section>
     </>
   );
 }
