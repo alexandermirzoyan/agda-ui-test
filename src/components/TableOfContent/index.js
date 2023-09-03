@@ -9,7 +9,7 @@ export const TableOfContent = () => (
       <img src={CloseIcon} alt='close-action' />
     </button>
     <div className={`${TEXT_XS} flex flex-col`}>
-      <span>TABLE OF CONTENT</span>
+      <span className='xl:mb-[32px] mb-[24px]'>TABLE OF CONTENT</span>
       <a href='#' className='xl:mb-[32px] mb-[24px]'>1.Intro</a>
       <a href='#' className='xl:mb-[32px] mb-[24px]'>2. Infrastructure Development in the 1950s</a>
       <a href='#' className='xl:mb-[32px] mb-[24px]'>3. Infrastructure Development in the 1960s</a>
