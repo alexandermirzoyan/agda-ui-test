@@ -14,8 +14,8 @@ export const Carousel = () => (
         alt='slider-1'
         className={`${CAROUSEL_IMAGE_HEIGHTS} ${CAROUSEL_SECONDARY_IMAGE_WIDTHS}
         sm:block hidden
-        lg:translate-x-[-186px] translate-x-[-160px]
-        translate-y-[134px]
+        lg:translate-x-[-250px] translate-x-[-160px]
+        translate-y-[110px]
         rotate-[-22deg] opacity-[0.5]`}
       />
       <img
@@ -28,8 +28,8 @@ export const Carousel = () => (
         alt='slider-3'
         className={`${CAROUSEL_IMAGE_HEIGHTS} ${CAROUSEL_SECONDARY_IMAGE_WIDTHS}
         sm:block hidden
-        lg:translate-x-[186px] translate-x-[160px]
-        translate-y-[134px]
+        lg:translate-x-[250px] translate-x-[160px]
+        translate-y-[110px]
         rotate-[22deg] opacity-[0.5]`}
       />
     </div>
